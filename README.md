@@ -6,6 +6,8 @@ Additionally, we are attempting to understand the model by using explainable AI 
 1.) Prediction explanation with LIME
 2.) Prediction explanation with SHAMP
 
+Code Link: - https://github.com/Abhiashu10/Airbnb-Price-Prediction--LIME-and-SHAP/blob/d024360cda85a95a689e8876cc4756bfac2e4c45/Airbnb%20Price%20Prediction-Explainable%20AI.ipynb
+
 
 # AirBnb Price Prediction- ML and Explainable AI (LIME and SHAP)
 
@@ -65,13 +67,8 @@ We get all numeric features, including categorical features that we turn into nu
 
 
 ## 🔗 Links
-[Code link](Airbnb Price Prediction-Explainable AI.ipynb)
+[Code link](https://github.com/Abhiashu10/Airbnb-Price-Prediction--LIME-and-SHAP/blob/d024360cda85a95a689e8876cc4756bfac2e4c45/Airbnb%20Price%20Prediction-Explainable%20AI.ipynb)
 
 
 
-## Roadmap
-
-- Additional browser support
-
-- Add more integrations
 
