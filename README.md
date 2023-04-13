@@ -6,7 +6,7 @@ Additionally, we are attempting to understand the model by using explainable AI 
 1.) Prediction explanation with LIME
 2.) Prediction explanation with SHAMP
 
-Code Link: - https://github.com/Abhiashu10/Airbnb-Price-Prediction--LIME-and-SHAP/blob/d024360cda85a95a689e8876cc4756bfac2e4c45/Airbnb%20Price%20Prediction-Explainable%20AI.ipynb
+
 
 
 # AirBnb Price Prediction- ML and Explainable AI (LIME and SHAP)
@@ -18,7 +18,8 @@ There are several questions that we want to find answers to:
 
 ●	Can we find out how the features of listings affect the price locally and globally?
 
-
+## 🔗 Links
+[Code link](https://github.com/Abhiashu10/Airbnb-Price-Prediction--LIME-and-SHAP/blob/d024360cda85a95a689e8876cc4756bfac2e4c45/Airbnb%20Price%20Prediction-Explainable%20AI.ipynb)
 
 ## Features
 There are 27 total Input features in the dataset: -
@@ -66,8 +67,7 @@ We get all numeric features, including categorical features that we turn into nu
 
 
 
-## 🔗 Links
-[Code link](https://github.com/Abhiashu10/Airbnb-Price-Prediction--LIME-and-SHAP/blob/d024360cda85a95a689e8876cc4756bfac2e4c45/Airbnb%20Price%20Prediction-Explainable%20AI.ipynb)
+
 
 
 
