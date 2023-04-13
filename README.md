@@ -62,15 +62,11 @@ host_has_profile_pic, host_identity_verified, instant_bookable: because these fe
 We get all numeric features, including categorical features that we turn into numeric features. Then we deal with outliers. At first, we try to use InterQuartile Range to detect and remove outliers of each feature that are outside of Q1 - 1.5 * IQR  and Q3 + 1.5 * IQR. However, this step removes so many outliers that the dataset reduces to only 50,000 observations left and decreases the accuracies of models we build later. So we decided to modify the range a little bit. We calculate the upper bound (97.5%) and lower bound (2.5 %) of values of each feature, and remove observations that have values outside those bounds. After doing this step, the remaining dataset has around 150,000 observations, which is pretty suitable to train and test ML models.
 
 
-## Documentation
-
-[Documentation](https://linktodocumentation)
 
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+[Code link](Airbnb Price Prediction-Explainable AI.ipynb)
+
 
 
 ## Roadmap
