@@ -21,6 +21,23 @@ There are several questions that we want to find answers to:
 ## 🔗 Links
 [Code link](https://github.com/Abhiashu10/Airbnb-Price-Prediction--LIME-and-SHAP/blob/d024360cda85a95a689e8876cc4756bfac2e4c45/Airbnb%20Price%20Prediction-Explainable%20AI.ipynb)
 
+## Model Interpretation
+
+Linear Regression: - We use LIME and SHAP to interpret the model’s predictions at the local and global levels. We take a random test vector from the test set and set the number of the top features as 5, the number of perturbed samples as 5000. my notes
+The comparatively higher market value of the house reflected by the provided vector (depicted by a bar on the left) can be related to the following reasons:
+
+The high value of room_type_private_room on the negative side indicates that because it’s a private room, the price will reduce.
+The high value of longitude on the negative side indicates that the house is not in a suitable place such as city centers or crowded neighborhoods.
+The high value of bedrooms on the positive side indicates that the house has a bedroom, which is a private room and people prefer it.
+The high value of review_scores_rating on the positive side indicates that the house has a high rating. my notes
+At the global level, we can see that longitude, bedrooms, accommodates, latitude, beds, review_scores_rating affect the price most.
+Decision Tree Regression: - At the global level, we can see that longitude, accommodates, latitude, bedrooms affect the price most. my notes
+
+Random Forest Regression: - At the global level, we can see that longitude, accommodates, latitude, bedrooms affect the price most. my notes
+
+XG BOost: - At the global level, we can see that bedrooms, room_type_entire_home/apt, accommodates, longitude, latitude affect the price most. my notes
+
+
 ## Features
 There are 27 total Input features in the dataset: -
 
