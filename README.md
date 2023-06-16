@@ -23,19 +23,29 @@ There are several questions that we want to find answers to:
 
 ## Model Interpretation
 
-Linear Regression: - We use LIME and SHAP to interpret the model’s predictions at the local and global levels. We take a random test vector from the test set and set the number of the top features as 5, the number of perturbed samples as 5000. my notes
-The comparatively higher market value of the house reflected by the provided vector (depicted by a bar on the left) can be related to the following reasons:
+1.) Linear Regression: - We use LIME and SHAP to interpret the model’s predictions at the local and global levels. We take a random test vector from the test set and set the number of the top features as 5, the number of perturbed samples as 5000. 
+<img width="624" alt="image" src="https://github.com/Abhiashu10/Airbnb-Price-Prediction-LIME-and-SHAP/assets/101308486/8ce0f62d-44e7-4865-ac09-8ebc4ede3590">
 
+The comparatively higher market value of the house reflected by the provided vector (depicted by a bar on the left) can be related to the following reasons:
 The high value of room_type_private_room on the negative side indicates that because it’s a private room, the price will reduce.
 The high value of longitude on the negative side indicates that the house is not in a suitable place such as city centers or crowded neighborhoods.
 The high value of bedrooms on the positive side indicates that the house has a bedroom, which is a private room and people prefer it.
-The high value of review_scores_rating on the positive side indicates that the house has a high rating. my notes
+The high value of review_scores_rating on the positive side indicates that the house has a high rating. 
+
+<img width="575" alt="image" src="https://github.com/Abhiashu10/Airbnb-Price-Prediction-LIME-and-SHAP/assets/101308486/83f7c567-296d-41f8-a094-c44b963a6af9">
 At the global level, we can see that longitude, bedrooms, accommodates, latitude, beds, review_scores_rating affect the price most.
-Decision Tree Regression: - At the global level, we can see that longitude, accommodates, latitude, bedrooms affect the price most. my notes
 
-Random Forest Regression: - At the global level, we can see that longitude, accommodates, latitude, bedrooms affect the price most. my notes
+2.) Decision Tree Regression: - At the global level, we can see that longitude, accommodates, latitude, bedrooms affect the price most. 
+<img width="646" alt="image" src="https://github.com/Abhiashu10/Airbnb-Price-Prediction-LIME-and-SHAP/assets/101308486/f9a7fa47-fc41-41a7-88aa-4c1d553d1ba2">
 
-XG BOost: - At the global level, we can see that bedrooms, room_type_entire_home/apt, accommodates, longitude, latitude affect the price most. my notes
+
+3.) Random Forest Regression: - At the global level, we can see that longitude, accommodates, latitude, bedrooms affect the price most. my notes
+<img width="642" alt="image" src="https://github.com/Abhiashu10/Airbnb-Price-Prediction-LIME-and-SHAP/assets/101308486/afceb1db-5f3a-4d1b-aac0-7e89c8acee72">
+
+
+4.) XG BOost: - At the global level, we can see that bedrooms, room_type_entire_home/apt, accommodates, longitude, latitude affect the price most. my notes
+<img width="643" alt="image" src="https://github.com/Abhiashu10/Airbnb-Price-Prediction-LIME-and-SHAP/assets/101308486/73945e65-473b-419f-831e-ffbdd6e71c56">
+
 
 
 ## Features
