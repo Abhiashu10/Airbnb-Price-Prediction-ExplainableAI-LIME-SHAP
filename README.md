@@ -16,12 +16,13 @@ There are several questions that we want to find answers to:
 
 ●	How to predict the price for each listing?
 
-●	Can we find out how the features of listings affect the price locally and globally?
-
-## Data Source: - http://insideairbnb.com/data-requests
+●	Can we find out how the features of listings affect the price locally and globally
 
 ## 🔗 Links
 [Code link](https://github.com/Abhiashu10/Airbnb-Price-Prediction--LIME-and-SHAP/blob/d024360cda85a95a689e8876cc4756bfac2e4c45/Airbnb%20Price%20Prediction-Explainable%20AI.ipynb)
+
+## 🔗 Links
+[Dataset Source](http://insideairbnb.com/get-the-data/)
 
 ## Model Interpretation
 
